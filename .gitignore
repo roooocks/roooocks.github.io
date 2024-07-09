@@ -22,6 +22,9 @@ package-lock.json
 !.vscode/settings.json
 !.vscode/extensions.json
 
-# Misc # 아래 둘 왜 한건지 모르겠읆.. 일단 주석처리하면 안된다
+# Misc # 아래 둘 왜 한건지 모르겠읆.. 일단 주석처리하면 된다
 # _sass/dist
 # assets/js/dist
+
+# Example *.md
+_posts/example
