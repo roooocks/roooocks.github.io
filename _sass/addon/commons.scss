@@ -806,8 +806,9 @@ $btn-mb: 0.5rem;
   }
 
   .sidebar-bottom {
-    padding-left: 2rem;
-    padding-right: 1rem;
+    // 아래 2개는 필요 X
+    // padding-left: 2rem;
+    // padding-right: 1rem;
     margin-bottom: 1.5rem;
 
     $btn-size: 1.75rem;
