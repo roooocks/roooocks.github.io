@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: 공부랑 삽질 # the main title
 
-tagline: 까먹고 다시 검색할 것 같은 부분을 정리하고 저장하는 공간 # it will display as the subtitle
+tagline: 까먹고 다시 검색할 것 같은 부분들을 기록하는 공간 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  개발 시간보다 검색하는 시간이 너무 많은게 싫어서 블로그를 시작했습니다. 
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -38,11 +38,7 @@ social:
   email: dspdaw@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username # change to your Twitter homepage
     - https://github.com/roooocks # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
