@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 공부랑 삽질 # the main title
 
-tagline: 까먹고 다시 검색할 것 같은 부분들을 기록하는 공간 # it will display as the subtitle
+tagline: 절!대! 기록해! # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   개발 시간보다 검색하는 시간이 너무 많은게 싫어서 블로그를 시작했습니다. 
