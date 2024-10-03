@@ -2,9 +2,14 @@
 ---
 
 @import 'main
-{%- if jekyll.environment == 'production' -%}
+{%- if jekyll.environment == ' production
+  ' -%}
   .bundle
 {%- endif -%}
 ';
 
 /* append your custom style below */
+// TOC 부분에 있는 자동 숨기기, 자동 펼치기 기능 정지
+.is-collapsed {
+  max-height: none !important;
+}
