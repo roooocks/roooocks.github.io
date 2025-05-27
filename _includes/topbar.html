@@ -35,6 +35,10 @@
               </a>
             </span>
           {% endif %}
+
+          {% unless item == 'posts' or forloop.first or forloop.last or page.layout == 'category' or page.layout == 'tag' %}
+            <span>{{ item | url_decode }}</span>
+          {% endunless %}
         {% endfor %}
       {% endif %}
     </nav>
