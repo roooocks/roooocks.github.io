@@ -23,5 +23,8 @@
   "less.validate": false,
   // Stylint extension settings
   "stylelint.snippet": ["css", "scss"],
-  "stylelint.validate": ["css", "scss"]
+  "stylelint.validate": ["css", "scss"],
+
+  // Custom Setting
+  "files.autoSave": "afterDelay"
 }
