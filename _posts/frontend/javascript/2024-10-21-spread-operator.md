@@ -2,7 +2,7 @@
 title: spread 연산자
 description: 배열, 객체의 전체 혹은 일부에 해당하는 사본 만들기
 date: 2024-10-21 15:53:00 +0900
-categories: [프론트엔드, JS]
+categories: [프론트엔드, JS/TS]
 tags: [프론트엔드, JS, JS 문법]
 ---
 
