@@ -1,5 +1,9 @@
 /* The common styles */
 
+@use 'config' as *;
+
+@use 'module' as *;
+
 html {
   @media (prefers-color-scheme: light) {
     &:not([data-mode]),

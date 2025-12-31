@@ -21,10 +21,12 @@ package-lock.json
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
+!.vscode/tasks.json
 
-# Misc # 아래 둘 왜 한건지 모르겠읆.. 일단 주석처리하면 된다
-# _sass/dist
-# assets/js/dist
+# Misc
+_sass/vendors
+_sass/dist
+assets/js/dist
 
 # Example *.md
 _posts/example
