@@ -2,13 +2,13 @@
 title: Throttle, Debounce
 description: 이벤트 핸들러가 많아 최적화를 해야한다면?
 date: 2025-10-02 16:42:00 +0900
-categories: [프론트엔드, JS/TS]
-tags: [프론트엔드, JS]
+categories: [언어, JS/TS]
+tags: [기술정리, 비교, 구현]
 ---
 
 ## 출처
 - 블로그
-  - [디바운스(Debounce)와 스로틀(Throttle ) 그리고 차이점](https://webclub.tistory.com/607){: target='_blank' }
+  - [디바운스(Debounce)와 스로틀(Throttle) 그리고 차이점](https://webclub.tistory.com/607){: target='_blank' }
   - [쓰로틀링과 디바운싱](https://www.zerocho.com/category/JavaScript/post/59a8e9cb15ac0000182794fa){: target='_blank' }
 - 예제
   - 제미니 AI

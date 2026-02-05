@@ -3,7 +3,7 @@ title: Styled Components
 description: 컴포넌트에 옷 입히기
 date: 2025-09-29 14:20:40 +0900
 categories: [프론트엔드, React]
-tags: [프론트엔드, React]
+tags: [개념정리, 기술정리]
 ---
 
 ## 출처

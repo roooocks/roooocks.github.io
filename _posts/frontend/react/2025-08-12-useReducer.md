@@ -3,7 +3,7 @@ title: "[Hook] useReducer"
 description: useState의 확장판
 date: 2025-08-12 15:17:00 +0900
 categories: [프론트엔드, React]
-tags: [프론트엔드, React, React Hook]
+tags: [개념정리, 기술정리, React Hook]
 ---
 
 **리액트를 다루는 기술(개정판)**을 참고했습니다.

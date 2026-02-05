@@ -3,7 +3,7 @@ title: "[Hook] useEffect"
 description: 렌더링할 때마다 특정 작업을 하고 싶다면?
 date: 2025-08-11 16:39:00 +0900
 categories: [프론트엔드, React]
-tags: [프론트엔드, React, React Hook]
+tags: [개념정리, 기술정리, React Hook]
 ---
 
 **리액트를 다루는 기술(개정판)**을 참고했습니다.
