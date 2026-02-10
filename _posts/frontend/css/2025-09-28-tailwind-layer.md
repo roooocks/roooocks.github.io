@@ -3,7 +3,6 @@ title: "[Tailwind] 레이어(base, components, utilities)"
 description: 분명 클래스 기반 유틸리티 우선 방식이라고 했는데...?
 date: 2025-09-28 16:00:16 +0900
 categories: [프론트엔드, CSS]
-tags: [개념정리, 비교, tailwind css]
 ---
 
 ## 출처

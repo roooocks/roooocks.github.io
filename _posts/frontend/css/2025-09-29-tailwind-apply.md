@@ -3,7 +3,6 @@ title: "[Tailwind] @apply"
 description: Directives(지시어) - 재사용 가능한 CSS 컴포넌트를 Tailwind로 만들기
 date: 2025-09-28 16:31:22 +0900
 categories: [프론트엔드, CSS]
-tags: [기술정리, tailwind css]
 ---
 
 ## 출처

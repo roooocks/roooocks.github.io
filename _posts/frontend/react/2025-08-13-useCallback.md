@@ -3,7 +3,6 @@ title: "[Hook] useCallback"
 description: useMemo가 값이면 이건 함수다!
 date: 2025-08-13 10:53:00 +0900
 categories: [프론트엔드, React]
-tags: [개념정리, 기술정리, React Hook]
 ---
 
 **리액트를 다루는 기술(개정판)**을 참고했습니다.

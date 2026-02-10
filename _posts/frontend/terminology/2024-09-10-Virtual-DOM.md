@@ -2,8 +2,7 @@
 title: Virtual DOM
 description: DOM의 업데이트가 잦으면 성능 저하가 발생하는 문제를 해결하는 방법이자 react의 특징
 date: 2024-09-10 14:43:00 +0900
-categories: [프론트엔드, 용어]
-tags: [개념정리, 렌더링]
+categories: [프론트엔드, 개념정리]
 ---
 
 **리액트를 다루는 기술(개정판)**을 참고했습니다.

@@ -3,7 +3,6 @@ title: Component
 description: 블록들을 만들어보자!
 date: 2025-09-29 15:42:48 +0900
 categories: [프론트엔드, React]
-tags: [개념정리, 기술정리]
 ---
 
 ## 출처

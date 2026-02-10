@@ -3,7 +3,6 @@ title: inherit, initial
 description: 자동완성 목록을 보면 꼭 보이는 그것들
 date: 2025-08-05 15:10:00 +0900
 categories: [프론트엔드, CSS]
-tags: [기술정리, 구현]
 ---
 
 css 쓰다보면 꼭 이 둘이 보인다.

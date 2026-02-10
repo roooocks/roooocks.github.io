@@ -2,8 +2,7 @@
 title: Throttle, Debounce
 description: 이벤트 핸들러가 많아 최적화를 해야한다면?
 date: 2025-10-02 16:42:00 +0900
-categories: [언어, JS/TS]
-tags: [기술정리, 비교, 구현]
+categories: [프로그래밍 언어, JS / TS]
 ---
 
 ## 출처
