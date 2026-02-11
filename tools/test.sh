@@ -1,77 +1,31 @@
 #!/usr/bin/env bash
 #
-# Build and test the site content
-#
-# Requirement: html-proofer, jekyll
-#
-# Usage: See help information
+# Run jekyll serve and then launch the site
 
-set -eu
-
-SITE_DIR="_site"
-
-_config="_config.yml"
-
-_baseurl=""
+prod=false
+command="bundle exec jekyll s -l"
+host="127.0.0.1"
 
 help() {
-  echo "Build and test the site content"
-  echo
   echo "Usage:"
   echo
-  echo "   bash $0 [options]"
+  echo "   bash /path/to/run [options]"
   echo
   echo "Options:"
-  echo '     -c, --config   "<config_a[,config_b[...]]>"    Specify config file(s)'
-  echo "     -h, --help               Print this information."
-}
-
-read_baseurl() {
-  if [[ $_config == *","* ]]; then
-    # multiple config
-    IFS=","
-    read -ra config_array <<<"$_config"
-
-    # reverse loop the config files
-    for ((i = ${#config_array[@]} - 1; i >= 0; i--)); do
-      _tmp_baseurl="$(grep '^baseurl:' "${config_array[i]}" | sed "s/.*: *//;s/['\"]//g;s/#.*//")"
-
-      if [[ -n $_tmp_baseurl ]]; then
-        _baseurl="$_tmp_baseurl"
-        break
-      fi
-    done
-
-  else
-    # single config
-    _baseurl="$(grep '^baseurl:' "$_config" | sed "s/.*: *//;s/['\"]//g;s/#.*//")"
-  fi
-}
-
-main() {
-  # clean up
-  if [[ -d $SITE_DIR ]]; then
-    rm -rf "$SITE_DIR"
-  fi
-
-  read_baseurl
-
-  # build
-  JEKYLL_ENV=production bundle exec jekyll b \
-    -d "$SITE_DIR$_baseurl" -c "$_config"
-
-  # test
-  bundle exec htmlproofer "$SITE_DIR" \
-    --disable-external \
-    --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+  echo "     -H, --host [HOST]    Host to bind to."
+  echo "     -p, --production     Run Jekyll in 'production' mode."
+  echo "     -h, --help           Print this help information."
 }
 
 while (($#)); do
   opt="$1"
   case $opt in
-  -c | --config)
-    _config="$2"
-    shift
+  -H | --host)
+    host="$2"
+    shift 2
+    ;;
+  -p | --production)
+    prod=true
     shift
     ;;
   -h | --help)
@@ -79,11 +33,22 @@ while (($#)); do
     exit 0
     ;;
   *)
-    # unknown option
+    echo -e "> Unknown option: '$opt'\n"
     help
     exit 1
     ;;
   esac
 done
 
-main
+command="$command -H $host"
+
+if $prod; then
+  command="JEKYLL_ENV=production $command"
+fi
+
+if [ -e /proc/1/cgroup ] && grep -q docker /proc/1/cgroup; then
+  command="$command --force_polling"
+fi
+
+echo -e "\n> $command\n"
+eval "$command"
