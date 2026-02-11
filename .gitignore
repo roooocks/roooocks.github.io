@@ -25,7 +25,7 @@ package-lock.json
 
 # Misc
 _sass/dist
-assets/js/dist
+# assets/js/dist
 
 # Example *.md
 _posts/example
