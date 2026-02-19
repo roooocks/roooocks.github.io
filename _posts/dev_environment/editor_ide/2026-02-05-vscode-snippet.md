@@ -37,7 +37,7 @@ categories: [개발 환경, 에디터 / IDE]
 	}
 }
 ```
-{ file='makefile.json 예제' }
+{: file='makefile.json 예제' }
 
 - Print to console : 스니펫 이름
 - prefix : 에디터에서 사용할 단축어 

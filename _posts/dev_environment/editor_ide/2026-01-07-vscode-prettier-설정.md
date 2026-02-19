@@ -21,7 +21,7 @@ prettier의 사용법은 크게 2가지로 나뉜다.
   "prettier.trailingComma": "es5"
 }
 ```
-{ file='vscode/settings.json' }
+{: file='vscode/settings.json' }
 
 
 ## 팀원 단위 설정
@@ -29,14 +29,13 @@ Prettier의 자체 설정 파일(.prettierrc)을 활용한다. <br>
 CLI 버전에서도 prettier의 사용이 가능하기 때문에 VSCode의 Extensions가 아닌 Node 패키지를 따로 받아야 한다.
 
 ```json
-// 여기서는 prettier 연결만 담당한다.
-// 설정을 여기서 해도 되지만, 그러면 충돌 가능성이 있다.
 {
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "description": "여기서는 prettier 연결만 담당한다. / 설정을 여기서 해도 되지만, 그러면 충돌 가능성이 있다."
 }
 ```
-{ file='vscode/settings.json' }
+{: file='vscode/settings.json' }
 
 ```json
 {
@@ -47,4 +46,4 @@ CLI 버전에서도 prettier의 사용이 가능하기 때문에 VSCode의 Exten
   "trailingComma": "all"
 }
 ```
-{ file='.prettierrc json 버전' }
+{: file='.prettierrc json 버전' }
