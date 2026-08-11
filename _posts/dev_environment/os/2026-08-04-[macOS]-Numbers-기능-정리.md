@@ -1,5 +1,5 @@
 ---
-title: "[macOS] 터미널 단축키"
+title: "[macOS] Numbers 기능 정리"
 description: command를 기억해...
 date: 2026-08-10 23:14:01 +0900
 categories: [개발 환경, 운영체제]
